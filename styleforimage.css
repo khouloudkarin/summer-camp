@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(206, 179, 179);
+}
+h1{
+    background-color: blue;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 20px;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    background-color: darkblue;
+}
+.class1{
+    background-color: darkslateblue;
+
+}
+.summer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+    color: azure;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: cursive;
+    font-size:large;
+}
+a:hover{
+    background-color: cornsilk;
+}
+ul{
+    list-style: none;
+
+}

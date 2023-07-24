@@ -1,0 +1,12 @@
+img{
+    border: 5px;
+    width: 70%;
+}
+
+li{
+    display: inline;
+    font-size: x-large;
+    color: rgb(233, 69, 96);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}

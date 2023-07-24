@@ -1,0 +1,22 @@
+p{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+*{background-color: rgb(15, 9, 12);}
+h1{background-color: rgb(17, 6, 17)
+}
+ol{
+    font-size: large;
+    font-family: cursive;
+    font-style: oblique;
+    color: rgb(89, 5, 92);
+}
+ul{
+    font-size: medium;
+    font-family: unset;
+font-style: italic;
+color: rgb(89, 5, 92);
+
+}
+a{color:rgb(175, 49, 187)}
