@@ -1,0 +1,361 @@
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alfa+Slab+One&display=swap');
+
+
+/* Style */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    cursor: pointer;
+}
+
+body {
+    background: #CECECE;
+}
+
+/* header Section */
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #069696;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Faustina;
+    font-size: 64px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Faustina;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+/* Introduction Section */
+.intro-section {
+    border-radius: 0px 0px 0px 200px;
+    background: #069696;
+    display: flex;
+    justify-content: center;
+
+    /* position: absolute; */
+}
+
+.info-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.intro-info {
+    padding-top: 120px;
+}
+
+.intro-info h1 {
+    color: #FFF;
+    font-family: Faster One;
+    font-size: 64px;
+    margin-left: 18px;
+    margin-bottom: 9px;
+}
+
+.intro-info p {
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.intro-info h3 {
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 28px;
+}
+
+.social-links {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 25px;
+}
+
+.intro-image img {
+    width: 125%;
+    margin-bottom: -4px;
+}
+
+/* Projects Section */
+
+.project-contents {
+    margin: 40px 0px
+}
+
+.projects-cards {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.project1 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+    background: #EBE7E7;
+}
+
+.preview {
+    border-radius: 20px;
+    background: #D9D9D9;
+    width: 500px;
+    height: 300px;
+}
+
+.preview img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p-info {
+    padding: 10px;
+}
+
+.p-title {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.p-info p {
+    color: #000;
+    font-family: Abel;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.p-source {
+    display: flex;
+    gap: 15px;
+}
+
+.p-source button {
+    padding: 2px 32px;
+    color: #FFF;
+    font-family: Abel;
+    font-size: 24px;
+    border-radius: 10px;
+    background: #069696;
+}
+
+.project2 {
+    width: 80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 48% 50%;
+    padding: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    background: #EBE7E7;
+}
+
+.project3 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+    background: #EBE7E7;
+}
+
+.see-more {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px
+}
+
+.see-more button {
+    color: #FFF;
+    font-family: Abel;
+    font-size: 32px;
+    border-radius: 20px;
+    background: #069696;
+    padding: 5px 35px;
+}
+
+/* Bottom Section */
+.bottom-section {
+    border-radius: 0px 150px 0px 0px;
+    background: #F6F6F6;
+}
+
+/* About section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 30px;
+}
+
+.about-info {
+    width: 50%;
+    padding: 25px;
+}
+
+.about-title {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    color: #000;
+    font-family: Abel;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.about-info h3 {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.resume button {
+    color: #069696;
+    font-family: Abel;
+    font-size: 32px;
+    border-radius: 15px;
+    border: 1px solid #069696;
+    background: #F6F6F6;
+    padding: 5px 30px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    justify-content: center;
+}
+
+.skill-set1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: Abel;
+    font-size: 32px;
+}
+
+.skill-details {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    padding: 0px 20px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px 0px 0px 0px;
+    background: #069696;
+}
+
+.contact-info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.contact-title {
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    color: #FFF;
+    font-family: Abel;
+    font-size: 40px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.contact-info form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+.contact-info form input {
+    color: #000;
+    font-family: Abel;
+    font-size: 40px;
+    border-radius: 20px;
+    background: #F8F8F8;
+    width: 100%;
+    padding: 5px;
+}
+
+.contact-info form textarea {
+    color: #000;
+    font-family: Abel;
+    font-size: 40px;
+    border-radius: 20px;
+    background: #F8F8F8;
+    width: 100%;
+    resize: none;
+    padding: 5px;
+}
+
+.contact-info form button {
+    color: #000;
+    font-family: Abel;
+    font-size: 48px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    background: #F6F5F5;
+}

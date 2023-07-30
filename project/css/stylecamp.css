@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #F8F8F8;
+    display: flex;
+    padding: 30px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.7);
+    height: 60px;
+    align-items: center;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+nav{
+    margin-left: auto;
+}
+
+.top-section{
+    background: url("/project/images/habibur.jpeg");
+    height: 680px;
+    background-size: 100%;
+}
+
+.top-content{
+    color: #fff;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding: 230px;
+}
+
+.top-content h1{
+    font-size: 90px;
+}
+
+.top-content h3{
+    font-size: 60px;
+}
+
+.top-content button{
+    padding: 15px 100px;
+    border-radius: 50px;
+    background: #0BC7E0;
+}
+
+.top-content a{
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.mid-section{
+    background: #fff;
+}
+
+.gallery{
+    height: 468px;
+    padding-top: 30px;
+}
+
+.title{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gallery-images{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 10%;
+    gap: 8%;
+}

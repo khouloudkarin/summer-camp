@@ -10,3 +10,9 @@ li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+    
