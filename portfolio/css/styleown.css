@@ -62,9 +62,7 @@ nav ul li a {
 .info-content {
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    justify-content: space-between;
 }
 
 .intro-info {
@@ -98,8 +96,13 @@ nav ul li a {
     margin-bottom: 25px;
 }
 
-.intro-image img {
-    width: 125%;
+.intro-image{
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-edit img {
+    width: 100%;
     margin-bottom: -4px;
 }
 
